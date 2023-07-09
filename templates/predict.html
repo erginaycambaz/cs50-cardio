@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Predict
+{% endblock %}
+
+{% block main %}
+
+<h1 class="display-5 fw-bold text-body-emphasis">Form</h1>
+<form action="{{ url_for('predict') }}" method="post" class="mt-5">
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="text" name="age" id="age" class="form-control" placeholder="Enter your age (0-100 years)">
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender</label>
+        <input type="text" name="gender" id="gender" class="form-control" placeholder="Enter your gender (1/2)">
+    </div>
+    <div class="form-group">
+        <label for="height">Height</label>
+        <input type="text" name="height" id="height" class="form-control" placeholder="Enter your height (100-250cm)">
+    </div>
+    <div class="form-group">
+        <label for="weight">Weight</label>
+        <input type="text" name="weight" id="weight" class="form-control" placeholder="Enter your weight (30-150 kg)">
+    </div>
+    <div class="form-group">
+        <label for="ap_hi">Systolic blood pressure</label>
+        <input type="text" name="ap_hi" id="ap_hi" class="form-control"
+            placeholder="Enter your systolic blood range (90-150)">
+    </div>
+    <div class="form-group">
+        <label for="ap_lo">Diastolic blood pressure</label>
+        <input type="text" name="ap_lo" id="ap_lo" class="form-control"
+            placeholder="Enter your diastolic blood pressure (50-90)">
+    </div>
+    <div class="form-group">
+        <label for="chloc">Cholesterol</label>
+        <input type="text" name="chloc" id="chloc" class="form-control"
+            placeholder="Enter your cholesterol level (0-3)">
+    </div>
+    <div class="form-group">
+        <label for="gluc">Glucose</label>
+        <input type="text" name="gluc" id="gluc" class="form-control" placeholder="Enter your glucose level (0-3)">
+    </div>
+    <div class="form-group">
+        <label for="smoke">Do you smoke?</label>
+        <select name="smoke" id="smoke" class="form-control">
+            <option disabled selected>Enter your choice (Yes/No)</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="alco">Do you drink alcohol?</label>
+        <select name="alco" id="alco" class="form-control">
+            <option disabled selected>Enter your choice (Yes/No)</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="act">Are you physically active?</label>
+        <select name="act" id="act" class="form-control">
+            <option disabled selected>Enter your choice (Yes/No)</option>
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block btn-lg">Submit</button>
+</form>
+
+{% endblock %}

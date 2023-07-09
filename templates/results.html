@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Results
+{% endblock %}
+
+{% block main %}
+
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Results</h1>
+    <div class="col-lg-6 mx-auto">
+        {% if prediction == 1 %}
+        <p>We regret to inform you that your recent analysis for cardiovascular disease has yielded a positive result.
+            We strongly advise you to contact your doctor immediately for further steps and clarification. Prompt
+            medical attention is crucial to assess your condition accurately and determine an appropriate treatment
+            plan. Take action now for your well-being.</p>
+        {% else %}
+        <p>Good news! Your recent analysis for cardiovascular disease has come back negative. While this is reassuring,
+            it's important to continue practicing healthy habits and regular check-ups to maintain optimal
+            cardiovascular health. Consult with your doctor for preventive measures. Keep up the good work!</p>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}
