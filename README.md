@@ -28,4 +28,4 @@ Welcome to CS50 Cardio - a cardiovascular diseases diagnosis system. It was desi
  - Enhanced accuracy/precision
  - Secure authentication
 
-**This was CS50!**
+## This was CS50!
