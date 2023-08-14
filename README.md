@@ -1,7 +1,4 @@
-<p align="center">
-    <img height="140" src="https://ibb.co/jR1NBzW">
-    <img height="140" src="https://user-images.githubusercontent.com/35038240/221522077-5b1e3eca-ca85-4c9f-93a9-afd39cc93c88.png#gh-dark-mode-only">
-</p>
+![Hey, my name is Dilmurod  Aspiring Data Scientist](https://github.com/thisisdilmurod/cardiovascular-diagnosis/assets/100064552/5d8cbacd-a8e3-4554-98bb-13470e7b92e5)
 
 # CS50 Cardio
 
