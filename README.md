@@ -1,3 +1,8 @@
+<p align="center">
+    <img height="140" src="https://ibb.co/jR1NBzW">
+    <img height="140" src="https://user-images.githubusercontent.com/35038240/221522077-5b1e3eca-ca85-4c9f-93a9-afd39cc93c88.png#gh-dark-mode-only">
+</p>
+
 # CS50 Cardio
 
 Welcome to CS50 Cardio - a cardiovascular diseases diagnosis system. It was completely designed, written, and implemented by Dilmurod Abdusamadov as part of CS50 2023. For a quick tour of CS50 Cardio, please watch a short video [here](https://www.youtube.com/watch?v=YMWCOc32ckQ)!
