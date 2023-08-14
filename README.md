@@ -1,6 +1,6 @@
 ![CS50 Cardio Logo](https://github.com/thisisdilmurod/cardiovascular-diagnosis/assets/100064552/5d8cbacd-a8e3-4554-98bb-13470e7b92e5)
 
-# What's CS50 Cardio?
+## What's CS50 Cardio?
 
 - CS50 Cardio is a cardiovascular diseases diagnosis system. It was completely designed, written, and implemented by [Dilmurod Abdusamadov](https:www.github.com/thisisdilmurod) as part of CS50x 2023.
 - For a quick tour of CS50 Cardio functionality, please watch a short YouTube video [here](https://www.youtube.com/watch?v=YMWCOc32ckQ)!
